@@ -1,0 +1,15 @@
+#!/bin/bash
+#/etc/systemd/system/auth.service
+[Unit]
+Description=iMyMax auth service
+
+[Service]
+Type=simple
+User=max
+WorkingDirectory=/home/max/acquiring/
+ExecStart=/home/max/acquiring/auth.sh
+UMask=000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
