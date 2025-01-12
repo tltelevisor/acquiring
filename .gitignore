@@ -4234,3 +4234,7 @@ app/migration/versions/579f4a8b06d5_initial_revision.py
 app/migration/versions/cab494387bed_initial_revision.py
 .idea/vcs.xml
 py.log
+venv/.DS_Store
+venv/lib/python3.12/site-packages/.DS_Store
+app/.DS_Store
+.DS_Store
